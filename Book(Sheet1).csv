@@ -1,0 +1,31 @@
+,,,,
+,,,,
+,,,,
+Test Case ID ,Scenario ,Type ,Priority ,Expected Result 
+TC_001 ,Verify login page loads ,Smoke ,High ,"Username, password, and login button should be visible "
+TC_002 ,Login with valid user ,Smoke ,High ,User should navigate to product listing page 
+TC_003 ,Login with invalid password ,Negative ,High ,Error message should be displayed 
+TC_004 ,Login with locked user ,Negative ,High ,Locked user error should be displayed 
+TC_005 ,Verify product list after login ,Regression ,Medium ,Product cards should be visible 
+TC_006 ,Add product to cart ,Regression ,High ,Cart count should increase 
+TC_007 ,Remove product from cart ,Regression ,Medium ,Cart count should update 
+TC_008 ,Checkout with missing first name ,Negative ,Medium ,Validation error should be displayed 
+TC_009, Verify the checkout button,Smoke ,High ,User should be directed to the check out page
+TC_010,Verify  correct image is associated with the label,Smoke ,High ,Valid images next to the label
+TC_011,Verify user is able to filter.,Smoke ,Medium ,User should be able to filter as per preference.
+TC_012,Verify whether user is able to add more quantitiy of an item,Smoke ,Medium ,cart should show the number of quantity
+TC_013,Verify the UI icons (Description and QTY),Smoke ,High ,Item description and qty should be displayed upon clicking the label
+TC_014,verify Reset App State,Smoke ,High ,Users should be able to reset 
+TC_015,Verify All  Items option,Smoke ,High ,Users should be able to view all the items
+TC_016,Verify the text and the labels are being correctly displayed,Smoke ,High ,All text and descriptions are readable.
+TC_017,Verify clicking on an item redirects the user to correct webpage,Regression ,High ,Clicking the link opens the correct url.
+TC_018,Verify the cart button,Smoke ,High ,Cart should display all the items
+TC_019,Verify the log out option ,Smoke ,High ,User logged out successfully
+TC_020,"Verify login page in the ""about"" page ",Smoke ,High ,"Username, password, and login button should be visible "
+TC_021,"Verify book a demo button in About page redirects the user to ""talk to expert page""",regresion,High ,Upon clicking the demo button the user should be redirected to the Talk to expert page
+TC_022,Verify the sign up page in about page ,Smoke ,High ,Should redirect the user to create account page
+TC_023,Verify whether the special characters and digits  can be entered in the login page,Negative ,High ,Should display Invalid character
+TC_024,Verify back to products option,Smoke ,High ,It  should redirect the user to product page
+TC_025,Verify the continue shopping icon ,Regression ,,Redirect the user to product page without affecting the cart 
+TC_026,Verify in the checkout information whether special characters can be added in firstname and lastname ,Negative ,,Display invalid character
+TC_027,Verify in the the  checkout information whether special characters can be added in pincode,Negative ,,Display invalid character
